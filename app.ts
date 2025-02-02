@@ -1,6 +1,6 @@
 import * as cdk from 'aws-cdk-lib';
-import { AppStack } from './app'; // Import the stack
-import { ACCOUNT_ID, AWS_REGION } from './constants'; // Import from constants.ts
+import { AppStack } from './example_stack'; 
+import { ACCOUNT_ID, AWS_REGION } from './constants'; 
 
 const app = new cdk.App();
 new AppStack(app, 'AppStack', {
